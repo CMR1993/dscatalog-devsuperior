@@ -23,10 +23,10 @@ public class Category implements Serializable {
 	private Long id;
 	private String name;
 	
-	@Column(columnDefinition = "TIMESTEMP WITHOUT TIME ZONE")
+	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant createdAt;
 	
-	@Column(columnDefinition = "TIMESTEMP WITHOUT TIME ZONE")
+	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant updatedAt;
 	
 	public Category() {
